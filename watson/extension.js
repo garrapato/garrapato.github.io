@@ -1,5 +1,5 @@
 /* Extension demonstrating a blocking command block */
-/* Garrapato <yo@garrapato.com>, Sep 2017 */
+/* Sayamindu Dasgupta <sayamindu@media.mit.edu>, May 2014 */
 
 new (function() {
     var ext = this;
@@ -32,5 +32,5 @@ new (function() {
     };
 
     // Register the extension
-    ScratchExtensions.register('Random wait extension', descriptor, ext);
+    ScratchExtensions.register(' Watson Chatbot', descriptor, ext);
 })();
